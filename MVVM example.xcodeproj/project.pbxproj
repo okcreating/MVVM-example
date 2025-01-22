@@ -14,6 +14,7 @@
 		C64368982D3FDFC500E81FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64368972D3FDFC500E81FF5 /* Assets.xcassets */; };
 		C643689B2D3FDFC500E81FF5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C643689A2D3FDFC500E81FF5 /* Base */; };
 		C64368A32D3FE0BE00E81FF5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64368A22D3FE0BE00E81FF5 /* Profile.swift */; };
+		C64368A52D3FF95E00E81FF5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64368A42D3FF95E00E81FF5 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C643689A2D3FDFC500E81FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C643689C2D3FDFC500E81FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C64368A22D3FE0BE00E81FF5 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		C64368A42D3FF95E00E81FF5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C643688E2D3FDFC300E81FF5 /* AppDelegate.swift */,
 				C64368902D3FDFC300E81FF5 /* SceneDelegate.swift */,
 				C64368922D3FDFC300E81FF5 /* ViewController.swift */,
+				C64368A42D3FF95E00E81FF5 /* ViewModel.swift */,
 				C64368A22D3FE0BE00E81FF5 /* Profile.swift */,
 				C64368942D3FDFC300E81FF5 /* Main.storyboard */,
 				C64368972D3FDFC500E81FF5 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64368A52D3FF95E00E81FF5 /* ViewModel.swift in Sources */,
 				C64368932D3FDFC300E81FF5 /* ViewController.swift in Sources */,
 				C64368A32D3FE0BE00E81FF5 /* Profile.swift in Sources */,
 				C643688F2D3FDFC300E81FF5 /* AppDelegate.swift in Sources */,
