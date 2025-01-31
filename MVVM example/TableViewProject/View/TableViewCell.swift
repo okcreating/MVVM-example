@@ -12,4 +12,10 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var age: UILabel!
 
+    var viewModel: TableViewCellViewModelType? {
+        willSet(viewModel) {
+            name.text = viewModel?.name ?? ""
+            age.text = viewModel?.age ?? ""
+        }
+    }
 }
